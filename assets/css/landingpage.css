@@ -369,7 +369,7 @@ button:hover {
     margin-left: 8rem;
 }
 
-@media (max-width: 90rem) {
+@media (max-width: 800px) {
 
     .intro-content,
     .grid {
@@ -386,9 +386,7 @@ button:hover {
         margin-bottom: 8rem;
         cursor: pointer;
     }
-}
 
-@media (max-width: 53rem) {
     input {
         height: 5rem;
         width: 45rem;
@@ -410,8 +408,6 @@ button:hover {
         max-width: 45rem;
     }
 
-}
-
 .close-menu {
     display: none;
 }
@@ -432,8 +428,6 @@ button:hover {
     border: 0.1rem solid var(--primary-color);
 }
 
-@media (max-width: 800px) {
-
     .intro-content,
     .grid {
         grid-template-columns: 1fr;
@@ -449,8 +443,6 @@ button:hover {
 .gallery-img img {
     width: 100%;
 }
-
-
 
 .menu {
     bottom: 0;
