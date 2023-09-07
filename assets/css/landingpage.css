@@ -170,10 +170,11 @@ p {
     justify-content: center;
 }
 
-.intro-img {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+.intro-img img {
+    max-width: 60rem;
+    max-width: 60rem;
+    margin-top: 5rem;
+    width: 100%;
 }
 
 .intro-text-content h1 {
@@ -372,6 +373,7 @@ button:hover {
 .back-to-top{
     display: none;
 }
+
 @media (max-width: 800px) {
 
     .intro-content,
@@ -389,6 +391,8 @@ button:hover {
         margin-bottom: 8rem;
         cursor: pointer;
     }
+
+
 
     input {
         height: 5rem;
@@ -410,6 +414,8 @@ button:hover {
     p {
         max-width: 45rem;
     }
+
+
 
 .close-menu {
     display: none;
@@ -490,14 +496,11 @@ button:hover {
 .close-menu:checked~.close-menu-label::after {
     content: '×';
 }
-
 .margin-top {
     margin-top: -9rem;
 }
 .img-logo{
     margin-left: 3rem;
 }
-.intro-img{
-    display: none;
-}
+
 }
