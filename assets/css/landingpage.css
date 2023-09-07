@@ -369,7 +369,9 @@ button:hover {
     max-width: 5rem;
     margin-left: 8rem;
 }
-
+.back-to-top{
+    display: none;
+}
 @media (max-width: 800px) {
 
     .intro-content,
