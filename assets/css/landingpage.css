@@ -151,7 +151,8 @@ p {
 }
 
 .margin-top {
-    height: 4.5rem;
+    margin-top: -10rem;
+    height: 7rem;
 }
 
 .intro-content {
@@ -489,7 +490,7 @@ button:hover {
 }
 
 .margin-top {
-    margin-top: -8rem;
+    margin-top: -3rem;
 }
 .img-logo{
     margin-left: 3rem;
